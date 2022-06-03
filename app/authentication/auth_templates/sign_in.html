@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<section class="bg-dark text-light text-center shadow mb-20">
+    <div class="container p-5 bg-dark">
+        <div class="row">
+            <div class="d-md-flex bg-dark align-items-center justify-center-evenly">
+                <h1 class="col text-center">Sign In</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sign In Form Content -->
+<section>
+    <div class="container-fluid p-10">
+        <div class="row">
+            <aside class="col-12 col-md-6">
+                <br>
+            {% include 'forms.html' %}
+            </aside>
+        </div>
+    </div>
+<div class="d-flex justify-content-center">
+    <img src="../../static/images/pour.jpeg" alt="whiskey bar entrance" class="col-3 shadow-lg">
+</div>
+<br>
+</section>
+{% endblock %}
